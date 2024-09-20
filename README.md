@@ -1,6 +1,6 @@
 # how-to-sql
 
-Use ArcMap and ArcPy to explore, summarize and visualize data
+Use MS SQL to explore, summarize and visualize data
 
 Steps:
 
