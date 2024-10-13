@@ -1,0 +1,28 @@
+`:: SELECT ::` # Select data from the database
+`:: FROM ::` # Specify the table to select data from
+`:: WHERE ::` # Filter row based on a condition
+`:: AS ::` #Rename a column or table an alias
+`:: JOIN ::` # Combine row from two or more tables
+`:: AND ::` # Combine multiple conditions, all must be true
+`:: OR ::` # Combine multiple conditions, at least one must be true
+`:: LIMIT ::` #Restrict the number or rows returned
+`:: IN ::` # Specify multiple values in a WHERE clause
+`:: CASE ::` # Create conditional logic within a SQL statement
+`:: IS NULL ::` # Check for empty values
+`:: LIKE ::` # Search for a specified pattern in a column
+`:: COMMIT ::` # Save changes made in the transaction
+`:: ROLLBACK ::` # Undo changes made in the transaction
+`:: ALTER TABLE ::` # Modify an existing table structure
+`:: UPDATE ::` # Modify existing table structure
+`:: CREATE ::` # Create a new table
+`:: DELETE ::` # Remove rows from a table
+`:: INSERT INTO ::` # Add new rows to a table
+`:: DROP ::` # Delete a table or other object in the database
+`:: GROUP BY ::` # Group rows that have the same values in specified columns into a summary rows
+`:: ORDER BY ::` # Sort the result set of query by specified criteria
+`:: HAVING ::` # FIleter groups based on a condition (used after GROUP BY)
+`:: COUNT ::` # Return the value of numeric column
+`:: SUM ::` # Calculate the total sum of a numeric column
+`:: AVG ::` # Calculate the average value a numeric column
+`:: MIN ::` # Return the smallest value of the selected column
+`:: MAX ::` # Return the largest value of the selected column
