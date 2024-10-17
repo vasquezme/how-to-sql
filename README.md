@@ -33,7 +33,7 @@ Summary:
 `:: DROP ::` # Delete a table or other object in the database <br>
 `:: GROUP BY ::` # Group rows that have the same values in specified columns into a summary rows <br>
 `:: ORDER BY ::` # Sort the result set of query by specified criteria <br>
-`:: HAVING ::` # FIleter groups based on a condition (used after GROUP BY) <br>
+`:: HAVING ::` # Filter groups based on a condition (used after GROUP BY) <br>
 `:: COUNT ::` # Return the value of numeric column <br>
 `:: SUM ::` # Calculate the total sum of a numeric column <br>
 `:: AVG ::` # Calculate the average value a numeric column <br>
