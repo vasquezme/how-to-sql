@@ -21,12 +21,49 @@ Summary:
 <hr>
 
 ## Data Definition Language (DDL)
-`:: CREATE ::` # Create a new table <br>
+`:: CREATE TABLE::` # Create a new table <br>
 `:: ALTER TABLE ::` # Modify an existing table structure <br>
 `:: DROP ::` # Delete a table or other object in the database <br>
 `:: RENAME ::` # <br>
 `:: TRUNCATE ::` # <br>
 `:: COMMENT ::` # <br>
+
+`````Ruby
+
+-- Create Table:
+
+CREATE TABLE [dbo].BUTTER(
+	[ID] [nchar](10) NOT NULL,
+	[DATE] [date] NOT NULL,
+	[MONEY] [money] NOT NULL,
+	[COMMODITY] [nchar](10) NULL,
+	[REPORTNAME] [nchar](10) NULL,
+	[DATEUPDATED] [date] NULL
+) ON [PRIMARY]
+GO
+
+-- Stored Procedure to correct spelling mistake:
+
+EXEC sp_rename "CHIKCKEN_BREAST", "CHICKEN_BREAST";
+
+-- Add two new columns
+
+ALTER TABLE CHUCK_ROAST
+ADD CURRENCY [nchar] (10) NULL,
+   FREQUENCY [nchar] (10) NULL;
+
+-- Update data column with new datatype
+
+ALTER TABLE RICE
+ALTER COLUMN DATE [datetime] NULL;
+
+-- Add new column
+
+ALTER TABLE SUGAR
+ADD REPORTEDBY [nchar](10) NULL;
+
+`````
+
 
 ## Data Manipulation Language (DML)
 `:: SELECT ::` # Select data from the database <br>
