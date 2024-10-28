@@ -84,6 +84,16 @@ SET YEAR = YEAR(DATE),
 ALTER TABLE PCOCOUSDM 
 ALTER COLUMN PRICE decimal(19,2);
 
+-- Create a copy of a table
+SELECT *
+INTO COMM_COL_REF
+FROM COCOA;
+
+-- Create an empty table reference table using TRUNCATE
+TRUNCATE TABLE COMM_COL_REF;
+
+-- 
+
 `````
 
 
