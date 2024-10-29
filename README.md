@@ -92,6 +92,11 @@ FROM COCOA;
 -- Create an empty reference table using TRUNCATE
 TRUNCATE TABLE COMM_COL_REF;
 
+-- Query highest prices and dates
+SELECT TOP 3 PRICE, DATE
+FROM PCOCOUSDM
+ORDER BY PRICE DESC;
+
 `````
 
 
