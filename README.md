@@ -89,10 +89,8 @@ SELECT *
 INTO COMM_COL_REF
 FROM COCOA;
 
--- Create an empty table reference table using TRUNCATE
+-- Create an empty reference table using TRUNCATE
 TRUNCATE TABLE COMM_COL_REF;
-
--- 
 
 `````
 
