@@ -151,7 +151,10 @@ GROUP BY COMMODITY,
 		MONTH
 ORDER BY MONTHLY_AVERAGE_PRICE DESC;
 
-
+-- Update table and replace null values
+UPDATE SUGAR
+SET PRICE = '4.24'
+WHERE DATE >= '2018-10-01' AND DATE <= '2019-09-01';
 `````
 
 
