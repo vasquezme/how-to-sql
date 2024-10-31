@@ -184,6 +184,21 @@ UNION
 SELECT *
 FROM PCOCOUSDM;
 
+-- Create Monthly REF table
+INSERT INTO MONTH_REF (MONTHID, MONTH_NAME)
+VALUES (1, 'JAN'),
+		(2, 'FEB'),
+		(3, 'MARCH'),
+		(4, 'APRIL'),
+		(5, 'MAY'),
+		(6, 'JUNE'),
+		(7, 'JULY'),
+		(8, 'AUGUST'),
+		(9, 'SEPTEMBER'),
+		(10, 'OCTOBER'), 
+		(11, 'NOVEMBER'),
+		(12, 'DECEMBER');
+
 
 `````
 
