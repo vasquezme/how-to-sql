@@ -185,19 +185,19 @@ SELECT *
 FROM PCOCOUSDM;
 
 -- Create Monthly REF table
-INSERT INTO MONTH_REF (MONTHID, MONTH_NAME)
-VALUES (1, 'JAN'),
-		(2, 'FEB'),
-		(3, 'MARCH'),
-		(4, 'APRIL'),
-		(5, 'MAY'),
-		(6, 'JUNE'),
-		(7, 'JULY'),
-		(8, 'AUGUST'),
-		(9, 'SEPTEMBER'),
-		(10, 'OCTOBER'), 
-		(11, 'NOVEMBER'),
-		(12, 'DECEMBER');
+INSERT INTO MONTH_REF (MONTHID, MONTH_NAME, MONTH_NAM)
+VALUES (1, 'JANUARY','JAN'),
+	(2, 'FEBRUARY','FEB'),
+	(3, 'MARCH', 'MAR'),
+	(4, 'APRIL', 'APR'),
+	(5, 'MAY', 'MAY'),
+	(6, 'JUNE', 'JUN'),
+	(7, 'JULY', 'JUL'),
+	(8, 'AUGUST', 'AUG'),
+	(9, 'SEPTEMBER', 'SEPT'),
+	(10, 'OCTOBER', 'OCT'), 
+	(11, 'NOVEMBER', 'NOV'),
+	(12, 'DECEMBER', 'DEC');
 
 
 `````
