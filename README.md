@@ -203,6 +203,8 @@ VALUES (1, 'JANUARY','JAN'),
 
 `````
 
+![cookie-joins](https://github.com/vasquezme/how-to-sql/blob/main/images/cookie-monster.svg)
+
 
 ## Data Manipulation Language (DML)
 `:: SELECT ::` # Select data from the database <br>
