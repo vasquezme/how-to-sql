@@ -18,6 +18,11 @@ Summary:
 - Data Control Language (DCL) <br>
 - Transaction Control Language (TCL) <br>
 
+- Views
+- Subqueries
+- Common Table Expressions
+- Store Procedures
+
 <hr>
 
 ## Data Definition Language (DDL)
