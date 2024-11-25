@@ -36,7 +36,7 @@ SQL TOPICS
 `:: SELECT ::` # Select data from the database <br>
 `:: WHERE ::` # Filter row based on a condition <br>
 `:: GROUP BY ::` # Group rows that have the same values in specified columns into a summary rows <br>
-`:: HAVING ::` # <br>
+`:: HAVING ::` # Filter groups based on a condition (used after GROUP BY) <br>
 `:: ORDER BY ::` # Sort the result set of query by specified criteria <br>
 `:: LIMIT ::` # Restrict the number or rows returned <br>
 `:: JOIN ::` # Combine row from two or more tables <br>
@@ -44,7 +44,9 @@ SQL TOPICS
 `:: INTERSECT ::` # <br>
 `:: EXCEPT ::` # <br>
 
-![cookie-joins](https://github.com/vasquezme/how-to-sql/blob/main/images/cookie-monster.svg)
+<div align="center">
+<hr /><img src="https://github.com/vasquezme/how-to-sql/blob/main/images/cookie-monster.svg" width="800" height="800"/><hr />
+</div>
 
 <hr>
 
@@ -378,7 +380,6 @@ WHERE DATE >= '2018-10-01' AND DATE <= '2019-09-01';
 `:: IN ::` # Specify multiple values in a WHERE clause <br>
 `:: CASE ::` # Create conditional logic within a SQL statement <br>
 `:: LIKE ::` # Search for a specified pattern in a column <br>
-`:: HAVING ::` # Filter groups based on a condition (used after GROUP BY) <br>
 `:: CASE WHEN ::` # <br>
 
 <hr>
