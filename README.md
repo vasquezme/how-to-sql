@@ -384,6 +384,52 @@ WHERE DATE >= '2018-10-01' AND DATE <= '2019-09-01';
 
 <hr>
 
+`::RANK vs DENSE_RANK::` <br> 
+RANK: Provides a ranking with gaps if there are ties. <br>
+DENSE_RANK: Provides a ranking without gaps, even in the case of ties. <br>
+
+
+`::HAVING vs WHERE Clause ::` <br>
+WHERE: Filters rows before grouping. <br>
+HAVING: Filters groups after the GROUP BY clause. <br> 
+
+
+`::UNION vs UNION ALL ::` <br>
+UNION: Removes duplicates and combines results. <br>
+UNION ALL: Combines results without removing duplicates. <br> 
+
+
+`::JOIN vs UNION ::` <br>
+JOIN: Combines columns from multiple tables. <br>
+UNION: Combines rows from multiple tables with similar structure. <br> 
+
+
+`::DELETE vs DROP vs TRUNCATE ::` <br>
+DELETE: Removes rows, with the option to filter. <br>
+DROP: Removes the entire table or database. TRUNCATE: Deletes all rows but keeps the table structure. <br> 
+
+
+`::CTE vs TEMP TABLE ::` <br>
+CTE: Temporary result set used within a single query. <br>
+TEMP TABLE: Physical temporary table that persists for the session. <br> 
+
+
+`:: SUBQUERIES vs CTE ::` <br>
+SUBQUERIES: Nested queries inside the main query. <br>
+CTE: Can be more readable and used multiple times in a query. <br> 
+
+
+`:: ISNULL vs COALESCE ::` <br>
+ISNULL: Replaces NULL with a specified value, accepts two parameters. <br>
+COALESCE: Returns the first non-NULL value from a list of expressions, accepting multiple parameters. <br> 
+
+
+`:: INTERSECT vs INNER JOIN ::` <br>
+INTERSECT: Returns common rows from two queries. <br>
+INNER JOIN: Combines matching rows from two tables based on a condition. <br> 
+
+<hr>
+
 Sources:
 
 <!--- https://www.digitalocean.com/community/tutorials/how-to-manage-sql-database-cheat-sheet
